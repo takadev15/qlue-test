@@ -1,0 +1,14 @@
+{
+  "name": "question-4",
+  "version": "1.0.0",
+  "description": "Manipulate json",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Daffa Haryadi",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.3"
+  }
+}
