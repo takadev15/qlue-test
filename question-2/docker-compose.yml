@@ -9,9 +9,9 @@ services:
     ports:
       - "5432:5432"
     environment:
-      - POSTGRES_USER=${DB_USERNAME}
-      - POSTGRES_PASSWORD=${DB_PASSWORD}
-      - POSTGRES_DB=${DB_NAME}
+      - POSTGRES_USER=user
+      - POSTGRES_PASSWORD=testqlue
+      - POSTGRES_DB=qlue
     volumes:
       - ./query:/docker-entrypoint-initdb.d/
       - ./data/pgdata:/var/lib/postgresql/data
