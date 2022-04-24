@@ -1,3 +1,5 @@
+CREATE SCHEMA qlue;
+
 CREATE TABLE persons (
   id int NOT NULL
   name varchar(200)
