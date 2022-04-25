@@ -24,7 +24,6 @@ func findSets(n int) {
         fmt.Printf("%d, ", 1)
       }
       fmt.Printf("%d\n", res)
-      fmt.Printf("%d, %d\n", res, i)
     }
   }
 }
